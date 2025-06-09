@@ -1,0 +1,15 @@
+Missing data code,Rank,Reason for missing data
+.a,1,Data are not yet available for this year
+.j,2,Data are not available as the grouping is new and not all statistics have been calculated yet (statistics are calculated annually)
+.k,3,Data are not available as a measure to protect patient confidentiality as the group size is very small
+.c,4,"Data are not available as the statistic is meaningless for this group (e.g. only cancers with a screening programme can be diagnosed through a screening route, as survival is only run on first tumours a group entirely of subsequent tumours cannot have survival run for it.)"
+.n,5,Data are not available as the GDO partition changes during this time period
+.d,6,Data are not available as the methodology is only developed for invasive malignancies
+.m,7,"Data are not available as resection procedure codes have not been defined, i.e. we do not know what codes count as surgery for this group"
+.i,8,Data are not available as the methodology is under review
+.b,9,Data are not available as the data quality is too poor to release this statistic
+.p,10,Data are not available as the denominator populations are not yet available for this group.
+.e,11,"Data are not available as net survival estimates require at least ten patients are alive at the duration(s) of survival being estimated, and this criteria was not met"
+.f,12,"Data are not available as net survival estimates require at least two patients should die in the years before or after the duration(s) being estimated, and this criteria was not met."
+.g,13,"Data are not available as the standard error of the survival estimate was greater than 20%, and so the estimate was suppressed."
+.h,14,"Data are not available as the net survival estimate has increased with duration, e.g. the survival estimated at 12-months following diagnosis was higher than the survival estimated at 3-months following diagnosis, but should be lower to be meaningful"

@@ -1,0 +1,12 @@
+Unit,Unit description
+Count of people,A number which represents a number of people
+Count of tumours,"A number which represents a number of tumours.  Usually, one person has one tumour, but it is possible for one patient to be diagnosed with multiple tumours "
+Count of person-years,"A number which represents the number of years at-risk of a population.  For example, for calculating the rate of cancer over 2 years in a population of 1000 people, that is 2000 person-years of risk."
+Percentage,A number which represents a proportion or rate based on a count out of 100
+Proportion,A number that is the decimal proportion (out of 1) of the cohort who had the property in the statistic
+"Rate per 100,000 person-years","A number which represents the number of occurrences in a year in a population of 100,000 people"
+,
+,
+,
+,
+,
