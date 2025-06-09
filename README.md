@@ -1,70 +1,71 @@
 # CSV Insight Assistant
 
-CSV Insight Assistant is an interactive Python tool that helps you load, clean, explore, and visualize CSV files easily through a simple terminal interface. It is designed for users who want structured data insights without writing analysis code from scratch.
+CSV Insight Assistant is a lightweight Python tool that helps you explore CSV datasets quickly. It’s designed to give you useful summaries and charts without writing analysis code.
 
-## Features
+## What it Does
 
-- Load and preview any CSV file
-- Clean missing or inconsistent values
-- Choose from several insight options via menu
-- Automatically generate and save bar charts
-- Organized project structure for further development
+- Loads any CSV file
+- Cleans inconsistent or missing values
+- Lets you pick from common analysis options via a simple menu
+- Creates and saves bar charts automatically
 
 ## How to Use
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/theightcoder8/csv-insight-assistant.git
 cd csv-insight-assistant
-```
-
-### 2. Create a virtual environment
+2. (Optional) Set Up a Virtual Environment
+bash
+Copy
+Edit
 python3 -m venv venv
-source venv/bin/activate  # macOS/Linux
-venv\Scripts\activate     # Windows
-
-### 3. Install dependencies
+source venv/bin/activate      # macOS/Linux
+venv\Scripts\activate         # Windows
+3. Install the Requirements
+bash
+Copy
+Edit
 pip install -r requirements.txt
-
-### 4. Run the assistant
+4. Run the App
+bash
+Copy
+Edit
 python src/user_interface.py
+Follow the on-screen prompts to explore your data. Charts will be saved automatically in the charts/ folder.
 
-### 5. Follow the prompts
-You will be asked to choose insights such as:
-
-Top 10 cancer sites by count
-
-Patient distribution by age
-
-Tumour type frequency
-
-Stage distribution
-
-Visualizations will be saved automatically in the charts/ folder.
-
-## Project Structure
+Folder Overview
+bash
+Copy
+Edit
 csv-insight-assistant/
-├── charts/              <- Auto-generated PNG charts
-├── data/                <- Raw and cleaned CSV files
-├── notebooks/           <- Jupyter notebooks for exploration
-├── src/                 <- Core Python modules
+├── data/           # Input CSV files
+├── charts/         # Saved charts
+├── src/            # Python scripts
 │   ├── cleaning.py
 │   ├── visuals.py
 │   └── user_interface.py
-├── README.md
-└── requirements.txt
+├── notebooks/      # Optional: Jupyter exploration
+├── requirements.txt
+└── README.md
+Requirements
+Python 3.7 or higher
 
-## Requirements
-Python 3.7 or above
 pandas
 
 matplotlib
 
 numpy
 
-Install all with:
+To install everything at once:
 
 bash
 Copy
 Edit
+pip install -r requirements.txt
+css
+Copy
+Edit
+
+Let me know if you want to add sample output, screenshots, or a license section.
