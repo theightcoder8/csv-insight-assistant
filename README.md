@@ -67,5 +67,3 @@ pip install -r requirements.txt
 css
 Copy
 Edit
-
-Let me know if you want to add sample output, screenshots, or a license section.
