@@ -16,54 +16,66 @@ CSV Insight Assistant is a lightweight Python tool that helps you explore CSV da
 ```bash
 git clone https://github.com/theightcoder8/csv-insight-assistant.git
 cd csv-insight-assistant
-2. (Optional) Set Up a Virtual Environment
-bash
-Copy
-Edit
+```
+
+### 2. (Optional) Set Up a Virtual Environment
+
+```bash
 python3 -m venv venv
 source venv/bin/activate      # macOS/Linux
 venv\Scripts\activate         # Windows
-3. Install the Requirements
-bash
-Copy
-Edit
-pip install -r requirements.txt
-4. Run the App
-bash
-Copy
-Edit
-python src/user_interface.py
-Follow the on-screen prompts to explore your data. Charts will be saved automatically in the charts/ folder.
+```
 
-Folder Overview
-bash
-Copy
-Edit
+### 3. Install the Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the App
+
+```bash
+python src/user_interface.py
+```
+
+### 5. Follow the Prompts
+
+You will be guided through menu options like:
+
+- Top 10 cancer sites by count
+- Tumor type frequency
+- Stage distribution
+- Age group breakdowns
+
+The generated charts will be saved automatically in the `charts/` folder.
+
+---
+
+## Project Structure
+
+```
 csv-insight-assistant/
-├── data/           # Input CSV files
-├── charts/         # Saved charts
-├── src/            # Python scripts
+├── data/             # Input CSV files
+├── charts/           # Saved visualizations
+├── src/              # Python scripts
 │   ├── cleaning.py
 │   ├── visuals.py
 │   └── user_interface.py
-├── notebooks/      # Optional: Jupyter exploration
+├── notebooks/        # Optional: Jupyter exploration
 ├── requirements.txt
 └── README.md
-Requirements
-Python 3.7 or higher
+```
 
-pandas
+## Requirements
 
-matplotlib
+- Python 3.7 or higher
+- pandas
+- matplotlib
+- numpy
 
-numpy
+Install everything with:
 
-To install everything at once:
-
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
-css
-Copy
-Edit
+```
+
